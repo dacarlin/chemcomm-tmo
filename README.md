@@ -14,7 +14,7 @@ petrochemical waste product, into oxirane, a prechiral synthetic precursor.
 Current techniques to produce oxirane from ethene are deficient in the
 following ways: x, y, and z. 
 
-Scheme 1. Hypothesized reaction scheme. 
+![Scheme 1](s1.png). Hypothesized reaction scheme. 
 
 Previous reports have shown that toluene-o-xylene monooxygenase (ToMO) of Pseudomonas stutzeri OX1 degraded binary mixtures of chlorinated ethenes. We hypothesized that this enzyme would also show specific activity on unsubstituted ethene. To test our hypothesis, we repurposed a previously-generated library of TMO enzymes that had undergone directed evolution. "because the breakdown of chlorinated aliphatics yields no carbon or energy for the cell and because the breakdown intermediates, such as TCE epox- ide, are toxic (44), TOM will never evolve naturally to break- down these compounds faster." Thus the directed evolution approach.  
 
@@ -23,9 +23,9 @@ Results
 
 We found that some T4MO and TOM variants showed activity on ethene. 
 
-Figure 1. Array of evolved variants of T4MO and TOM showing a wide variety of activities on ethene. 
+![Figure 1](fig1.png). Array of evolved variants of T4MO and TOM showing a wide variety of activities on ethene. 
 
-Figure 2. Time course of TOM A113F showing activity on ethene. 
+![Figure 2](fig2.png). Time course of TOM A113F showing activity on ethene. 
 
 Discussion
 ----------
