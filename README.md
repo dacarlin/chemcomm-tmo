@@ -21,11 +21,12 @@ We found a variety of activites on ethene, as pictured. Nearly-complete degradat
 
 A most interesting result was that a single amino acid substituion (phenylalanie for alanine at position 113 of $gene-name) renders TOM as active as T4MO on ethene. Other mutants that showed increased activity compared to wild time TOM all contained mutations where a small amino acid has been replaced by a larger one, consistent with the placement of these residues in the crystal structure (there's the argument for including a drawing of the active site). 
 
-![Figure 1](fig1.png) Array of evolved variants of T4MO and TOM showing a wide variety of activities on ethene. 
+![Figure 1](fig1.pdf) 
 
 A subset of mutants that showed complete degradation of ethene after 24 hours was tested to determine the reaction rate. The fastest mutant, TOM A113F, degraded 0.62 mM ethene (= 0.62 umol) in 220 minutes. 
 
-![Figure 2](fig2.png) Time course of TOM A113F showing activity on ethene. 
+![Figure 2](fig2.pdf) 
+![Figure 3](fig3.pdf) 
 
 Here we report the use of a directed evolution approach to improve the activity of toluene-o-monooxygenase on gaseous unsubstituted ethene. These findings will be useful in x, y, z. 
 
