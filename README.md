@@ -6,12 +6,11 @@ Introduction
 chemical derivatives that are the basis for major consumer goods in
 virtually all industrialized countries." (IARC 2008) Commercial
 production began in 1914 and by 2009, had reached 20 million tons annually.
-A multi-unit industrial process in which gaseous ethylene and
+Currently, a multi-unit industrial process in which gaseous ethylene and
 oxygen are reacted over silver catalyst at high temperature and pressure
-(300 C and 3 MPa are common) accounts for all 20 million tons of global
-production. Even with the latest and best-developed industrial methods,
+(300 C and 3 MPa are common) is used to produce ethylene oxide (IUPAC name: oxirane) from ethylene. Even with the latest and best-developed industrial methods,
 continual replacement of the silver catalyst and scrubbers is
-necessary and based on Kilty 2001, maximum degree of conversion is 85.7%. Ethylene oxide's stance as a key raw material which satisfies demand for 10% of worldwide ethene production justifies the invention of better methods for the production of oxirane from ethylene. 
+necessary and the maximum degree of conversion is 85.7% (the rest is lost to carbon monoxide which must be scrubbed). Ethylene oxide's stance as a key raw material which satisfies demand for 10% of worldwide ethene production justifies the invention of better methods for the production of oxirane from ethylene. 
 
 Biological catalysts are becoming the tool of choice for synthetic
 reactions because of their selectivity and ability to perform reactions of
