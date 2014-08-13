@@ -25,15 +25,15 @@ industrial catalysts, biological catalysts are indefatigable and last
 indefinitely as they are constantly being produced by microrganisms, and
 the low temp mild conditions are conducive to its handling as
 a refrigerated liquid (virtually all industrially-produced oxirane is
-handled this way).  These conditions also promote the formation of ethylene
+handled this way). These conditions also promote the formation of ethylene
 glycol, a transformation that consumes 75% of oxirane produced globally
-each year.  TMOs could easily be combined in a pathway with a suitable
+each year. TMOs could easily be combined in a pathway with a suitable
 epoxide hydrolase to produce ethylene glycol directly from ethene.
 (Possible future grant/paper? 1EHY, a 294 AA epoxide hydrolase from
 agrobacterium radiobacter ad1, has been expressed in Escherichia coli
 bl21(de3) for crystallization.)
 
-![Scheme 1](s1.png). Reaction scheme. 
+![Scheme 1](s1.png) Reaction scheme. 
 
 In nature, the epoxidation of alkenes is carried out by a group of alkene
 monooxygenases that use molecular oxygen and NADH. The expression of these
@@ -56,6 +56,9 @@ ethenes was tested on unsubstituted ethene.
 
 Results and discussion 
 ----------------------
+
+For example, 1000 nm of ethene is degraded over 100 minutes, but how many
+mgs of protein are there in the 1 mL vials? 
 
 We found a variety of activites on ethene, as pictured. Nearly-complete
 degradation of millimolar concentrations of ethene was observed within 24
@@ -101,13 +104,23 @@ Here we report the use of a directed evolution approach to improve the
 activity of toluene-o-monooxygenase on gaseous unsubstituted ethene. These
 findings will be useful in x, y, z. 
 
+The basis for specificy could be explained by two mutations that block up the active site pocket, procluding the binding of larger substrates and favoring oxirane. Mitchell (2003) suggests a mechanism for the action of this enzyme based on studies with deuterated toluene in which the size and shape of the active site pocket is crucial to catalysis. Compare the shape of the pocket in the wild type enzyme to the single amino acid switch mutant TOM V106F, which showed xxx activity on oxirane, with the single amino acid switch mutant TOM V106A, which showed no improvement on oxirane. The phe at 113 creates a favorable molecular interaction between ethene and the phe aromatic sidechain. 
+
+![Figure 3](fig3.png) 
+
+Wood 2002: """
+Similarly, TOM A113V shows mild improvement on oxirane compared to wild type, while TOM A113F shows dramatic improvement. Modeling the mutants suggests occlusion of the substrate binding pocket by phe. Such occlusion could account for higher specificity for oxirane by sterically excluding other substrates, such as indole, shown to bind in the active site (Wood 2001). 
+
+We postulate that the smaller side chain of the alanine in TOM-Green compared to the valine in wild-type TOM allows greater access of substrate to the catalytic center, based on the crystal structures of the M. capsulatus Bath and the M. tricho- sporium OB3b nonheme sMMO hydroxylases, which show a clear channel formed by residues in this region (11, 32). Note that the tomA3 gene and mmoX, which encoded the 􏰈-sub- units, are 36% similar. When the sMMO hydroxylase crystal was solved in two forms, the most prominent difference was an altered side chain conformation on leucine110 in the active- site cavity (31); the leucine 110 in the sMMO hydroxylase is analogous to the valine 106 in TOM.
+The leucine 110 of sMMO was postulated to serve as a component in a hydrophobic gate controlling substrate access and product egress from the catalytic diiron active site (31). In the analogous hemerythrin, a leucine gate mutated to alanine exhibited increased autooxidation, while dioxygen association and dissociation constants were dramatically decreased when it was mutated to a tyrosine (31). Our results support these earlier observations in that by creating a smaller gate in TOM- Green, naphthalene, which is larger than the normal substrate toluene, has greater access to the active site. This hypothesis was confirmed by the enhanced oxidation rates by TOM-Green relative to the wild-type enzyme for the even larger substrates phenanthrene, fluorene, and anthracene, all three-ring com- pounds."""
+
 References 
 ----------
 
 + Sazinsky, Matthew H., et al. "Crystal Structure of the Toluene/o-Xylene
-  Monooxygenase Hydroxylase from Pseudomonas stutzeri OX1 INSIGHT INTO THE
-  SUBSTRATE SPECIFICITY, SUBSTRATE CHANNELING, AND ACTIVE SITE TUNING OF
-  MULTICOMPONENT MONOOXYGENASES." Journal of Biological Chemistry 279.29
+  Monooxygenase Hydroxylase from Pseudomonas stutzeri OX1: insight into the
+  substrate specificity, substrate channeling, and active site tuning of
+  multicomponent monooxygenases." Journal of Biological Chemistry 279.29
   (2004): 30600-30610.
 
 + Shim, H., et al. "Aerobic degradation of mixtures of tetrachloroethylene,
@@ -124,6 +137,11 @@ References
   International Agency for Research on Cancer. "1, 3-butadiene, ethylene
   oxide and vinyl halides (vinyl fluoride, vinyl chloride and vinyl
   bromide)." (2008).
+
++ Mitchell, Kevin H., et al. "Insight into the mechanism of aromatic
+  hydroxylation by toluene 4-monooxygenase by use of specifically deuterated
+  toluene and p-xylene." Proceedings of the National Academy of Sciences 
+  100.7 (2003): 3784-3789.
 
 Notes 
 -----
