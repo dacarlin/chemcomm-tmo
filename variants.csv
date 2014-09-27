@@ -1,0 +1,40 @@
+Group,Time,Strain,Eth,Oxi
+Wild type and control,16:54,buffer,1590,0
+Wild type and control,16:52,buffer,1600,0
+Wild type and control,16:50,buffer,1700,0
+Small nonpolar,16:56,TOM A113V,768,12
+Small nonpolar,16:58,TOM A113V,665,11
+Small nonpolar,17:00,TOM A113V,526,14
+Polar,17:02,TOM V106E,540,19
+Polar,17:05,TOM V106E,300,26
+Polar,17:07,TOM V106E,326,17
+Smaller sidechains,17:10,TOM V106A,1730,1
+Smaller sidechains,17:11,TOM V106A,1850,1
+Smaller sidechains,17:13,TOM V106A,1580,1
+Wild type and control,17:16,Wild type TOM,1870,0
+Wild type and control,17:18,Wild type TOM,1647,0
+Wild type and control,17:20,Wild type TOM,1495,0
+Polar,17:22,"TOM V106R, A113W",1590,0
+Polar,17:24,"TOM V106R, A113W",1060,0
+Polar,17:26,"TOM V106R, A113W",1590,0
+Smaller sidechains,17:28,"TOM V106P, A113G",1670,0
+Smaller sidechains,17:30,"TOM V106P, A113G",1523,0
+Smaller sidechains,17:32,"TOM V106P, A113G",1700,0
+Aromatic,17:34,TOM V106F,0,16
+Aromatic,17:36,TOM V106F,0,17
+Aromatic,17:38,TOM V106F,0,16
+Polar,17:52,"TOM V106Q, A113Q",1229,0
+Polar,17:54,"TOM V106Q, A113Q",1380,0
+Polar,17:57,"TOM V106Q, A113Q",1137,0
+Aromatic,17:59,TOM A113F,0,14
+Aromatic,18:00,TOM A113F,0,11
+Aromatic,18:02,TOM A113F,0,12
+Polar,18:04,"TOM V106I, A113S",1169,0
+Polar,18:06,"TOM V106I, A113S",1205,0
+Polar,18:09,"TOM V106I, A113S",1389,0
+Polar,18:11,"TOM V106H, A113S",832,2
+Polar,18:13,"TOM V106H, A113S",808,2
+Polar,18:15,"TOM V106H, A113S",1034,2
+Polar,18:17,TOM A113H,1081,0
+Polar,18:19,TOM A113H,995,0
+Polar,18:21,TOM A113H,645,0
