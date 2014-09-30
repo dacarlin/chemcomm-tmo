@@ -77,7 +77,7 @@
 <font id="21" charset="x-mac-roman" name="Helvetica"/>
 <font id="4684" charset="x-mac-roman" name="Helvetica Neue"/>
 </fonttable><page
- id="56"
+ id="60"
  BoundingBox="0 0 540 720"
  HeaderPosition="36"
  FooterPosition="36"
@@ -295,7 +295,7 @@
  CaptionJustification="Center"
  Justification="Center"
  LineHeight="auto"
-><s font="4684" size="12" color="0">200–</s><s font="4684" size="12" color="0">300 ˚</s><s font="4684" size="12" color="0">C, 10–</s><s font="4684" size="12" color="0">30 atm</s></t><t
+><s font="4684" size="12" color="0">200–300 ˚C, 10–30 atm</s></t><t
  id="13"
  p="270 362.27"
  BoundingBox="237.43 350.85 302.57 365.16"
@@ -304,60 +304,60 @@
  CaptionJustification="Center"
  Justification="Center"
  LineHeight="auto"
-><s font="4684" size="12" color="0">25 ˚</s><s font="4684" size="12" color="0">C, 1 atm</s></t><t
+><s font="4684" size="12" color="0">25 ˚C, 1 atm</s></t><t
  id="49"
  p="270 224.27"
- BoundingBox="252.27 212.85 287.73 229.08"
+ BoundingBox="243.60 210.37 296.40 227.16"
  Z="61"
  Warning="Chemical Interpretation is not possible for this label"
  CaptionJustification="Center"
  Justification="Center"
  LineHeight="auto"
-><s font="4684" size="12" color="0">O</s><s font="4684" size="12" color="0" face="32">2</s><s font="4684" size="12" color="0">, Ag</s></t><t
+><s font="4684" size="12" color="0" face="64">1</s><s font="4684" size="12" color="0">/</s><s font="4684" size="12" color="0" face="32">2</s><s font="4684" size="12" color="0"> O</s><s font="4684" size="12" color="0" face="32">2</s><s font="4684" size="12" color="0">, Ag</s></t><t
  id="50"
  p="270 331.27"
- BoundingBox="246.37 319.85 293.63 336.08"
+ BoundingBox="237.70 317.37 302.30 334.16"
  Z="62"
  Warning="Chemical Interpretation is not possible for this label"
  CaptionJustification="Center"
  Justification="Center"
  LineHeight="auto"
-><s font="4684" size="12" color="0">O</s><s font="4684" size="12" color="0" face="32">2</s><s font="4684" size="12" color="0">, TOM</s></t><graphic
- id="53"
- SupersededBy="57"
+><s font="4684" size="12" color="0" face="64">1</s><s font="4684" size="12" color="0">/</s><s font="4684" size="12" color="0" face="32">2</s><s font="4684" size="12" color="0"> O</s><s font="4684" size="12" color="0" face="32">2</s><s font="4684" size="12" color="0">, TOM</s></t><graphic
+ id="57"
+ SupersededBy="61"
  BoundingBox="378.25 342.25 161.75 342.25"
  Z="33"
  GraphicType="Line"
  ArrowType="FullHead"
  HeadSize="1000"
 /><graphic
- id="54"
- SupersededBy="58"
+ id="58"
+ SupersededBy="62"
  BoundingBox="378.25 234.25 161.75 234.25"
  Z="34"
  GraphicType="Line"
  ArrowType="FullHead"
  HeadSize="1000"
 /><scheme
- id="59"
+ id="63"
 ><step
- id="60"
+ id="64"
  ReactionStepReactants="15"
  ReactionStepProducts="18"
- ReactionStepArrows="54"
+ ReactionStepArrows="58"
  ReactionStepObjectsAboveArrow="49 6"
  ReactionStepObjectsBelowArrow="12"
 /></scheme><scheme
- id="61"
+ id="65"
 ><step
- id="62"
+ id="66"
  ReactionStepReactants="38"
  ReactionStepProducts="42"
- ReactionStepArrows="53"
+ ReactionStepArrows="57"
  ReactionStepObjectsAboveArrow="50 8"
  ReactionStepObjectsBelowArrow="13"
 /></scheme><arrow
- id="57"
+ id="61"
  BoundingBox="161.75 339.74 378.25 344.25"
  Z="33"
  FillType="None"
@@ -372,7 +372,7 @@
  MajorAxisEnd3D="654.12 437 0"
  MinorAxisEnd3D="437.62 653.50 0"
 /><arrow
- id="58"
+ id="62"
  BoundingBox="161.75 231.74 378.25 236.25"
  Z="34"
  FillType="None"
