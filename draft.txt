@@ -1,3 +1,47 @@
-Next, we attemptted to shed some light on the varying specificities using macromolecular modeling of the mutants. Using Rosetta, we build homology models of the mutants using the crystal structures of three closely-related proteins. While this is not a replacement for determining the crystal structure, previous work has shown that Rosetta models are accurate enough to deduce why some of the evolved mutants showed activity on ethene while the wild type protein does not. 
+Communication: enzymatic synthesis of oxirane
+=============================================
+
+Commercial production of ethylene oxide, an important commodity chemical, began in 1914 and by 2009 had reached 20 million tons annually. Currently, a multi-unit industrial process in which gaseous ethylene and oxygen are reacted over silver catalyst at high temperature and pressure is used to produce ethylene oxide (IUPAC name: oxirane) from ethylene (IUPAC name: ethene). 
+
+Oxirane’s stance as a key raw material which satisfies demand for 10% of worldwide ethene production justifies the invention of better methods of production. 
+
+Biological catalysts are becoming the tool of choice for synthetic reactions because of their selectivity and ability to perform reactions of interest under mild conditions. The epoxidation of ethene to yield oxirane is an example of a reaction particularly suited to biological catalysis. 
+
+Fig1. Reaction scheme comparing current state of the art to enzymatic catalysis
+
+In nature, the epoxidation of alkenes is carried out alkene monooxygenases. The expression of these enzymes in an industrial host such as Escherichia coli has to date been an elusive goal. 
+
+Previous directed-evolution studies (Wood 2002) developed a library of 26,705 mutants of toluene ortho-monooxygenase (TOM) from *Burkholderia cepacia* for the bioremediation of chlorinated ethenes in wastewater. Wood found one mutant, TOM V106A, that degraded trichloroethene about twice as fast as the wild type enzyme. 
+
+We assayed a subset of the directed-evolution library against ethene to determine if the enzyme was capable of oxidizing this compound to oxirane. Using whole cells sealed in glass vials under 1.5% ethene atmosphere with constant rocking, we found that some of the mutants were able to oxidize ethene to oxirane. 
+
+Fig2. Ethene remaining after 24 hours of contact with whole cells expressing mutants of TOM
+
+We found that wild type TOM showed no activity on ethene. We found no difference in degradation rate on ethene for TOM V106A, which Wood has shown to degrade trichloroethene about twice as fast as wild type. 
+
+Similarly, TOM V106P+A113G, where V106 and A113 have been replaced by similar small amino acids, showed no increased activity on ethene. Mutants TOM V106R+A113W, TOM V106Q+A113Q, GTOM 103S+A107T, TOM A113H, and TOM V106H+A113S, in which the small, nonpolar residues at 106 and/or 133 have been replaced by polar residues, showed a range of modest activity on ethene.   
+
+TOM mutants A113V, V106F, and A113F, where V106 and A113 are replaced by large nonpolar amino acids, showed dramatic gains in activity on ethene.
+
+The basis for specificity could be the steric occlusion of larger substrates (such as indole [Wood 2001]) from the active site and the favorable molecular interaction between the pi bonds of ethene and the sidechain of phenylalanine. 
+
+To investigate this hypothesis, we build homology models of the mutants using the crystal structures of three closely-related proteins (Song 2013). While this is not a replacement for determining the crystal structure, previous work has shown that Rosetta models are accurate enough to deduce why some of the evolved mutants showed activity on ethene while the wild type protein does not. 
 
 Our homology models revealed an active site pocket around the uncoordinated orbitals of the diiron center in the wild type large enough to admit indole. In the mutants A113F and V113F, the active site pocket is additionally packed and closed down compared to wild type such that it will not admit an indole but would easily admit a small nonpolar species such as ethene. We believe that this is the basis for the specific activity of the mutants on ethene. 
+
+In conclusion, we report synthesis of oxirane from ethene using a biological catalyst derived from directed evolution on a related substrate. This finding opens the door to the industrial synthesis of oxirane using mild conditions. 
+
+References
+==========
+
++ Song, Yifan, et al. "High-Resolution comparative modeling with RosettaCM." Structure 21.10 (2013): 1735-1742.
+
+Sazinsky, Matthew H., et al. "Crystal Structure of the Toluene/o-Xylene Monooxygenase Hydroxylase from Pseudomonas stutzeri OX1: insight into the substrate specificity, substrate channeling, and active site tuning of multicomponent monooxygenases." Journal of Biological Chemistry 279.29 (2004): 30600-30610.  
+
+Shim, H., et al. "Aerobic degradation of mixtures of tetrachloroethylene, trichloroethylene, dichloroethylenes, and vinyl chloride by toluene-o-xylene monooxygenase of Pseudomonas stutzeri OX1." Applied microbiology and biotechnology 56.1-2 (2001): 265-269.  
+
+Iwashita, Sachiyo, Hojae Shim, and Thomas K. Wood. "Directed evolution of toluene ortho-monooxygenase for enhanced 1-naphthol synthesis and chlorinated ethene degradation." Journal of bacteriology 184.2 (2002): 344-349.  
+
+IARC Working Group on the Evaluation of Carcinogenic Risks to Humans, and International Agency for Research on Cancer. "1, 3-butadiene, ethylene oxide and vinyl halides (vinyl fluoride, vinyl chloride and vinyl bromide)." (2008).  
+
+Mitchell, Kevin H., et al. "Insight into the mechanism of aromatic hydroxylation by toluene 4-monooxygenase by use of specifically deuterated toluene and p-xylene." Proceedings of the National Academy of Sciences 100.7 (2003): 3784-3789.  
