@@ -1,11 +1,9 @@
 Communication: enzymatic synthesis of oxirane
 =============================================
 
-Commercial production of ethylene oxide, an important commodity chemical, began in 1914 and by 2009 had reached 20 million tons annually. Currently, a multi-unit industrial process in which gaseous ethylene and oxygen are reacted over silver catalyst at high temperature and pressure is used to produce ethylene oxide (IUPAC name: oxirane) from ethylene (IUPAC name: ethene). 
+Commercial production of ethylene oxide, an important commodity chemical, began in 1914 and by 2009 had reached 20 million tons annually. Currently, a multi-unit industrial process in which gaseous ethylene and oxygen are reacted over silver catalyst at high temperature and pressure is used to produce ethylene oxide (IUPAC name: oxirane) from ethylene (IUPAC name: ethene). [1] 
 
-Oxirane’s stance as a key raw material which satisfies demand for 10% of worldwide ethene production justifies the invention of better methods of production. 
-
-Biological catalysts are becoming the tool of choice for synthetic reactions because of their selectivity and ability to perform reactions of interest under mild conditions. The epoxidation of ethene to yield oxirane is an example of a reaction particularly suited to biological catalysis. 
+Oxirane’s stance as a key raw material which satisfies demand for 10% of worldwide ethene production justifies better methods of production. Biological catalysts are becoming the tool of choice for synthetic reactions because of their selectivity and ability to perform reactions of interest under mild conditions. The epoxidation of ethene to yield oxirane is an example of a reaction particularly suited to biological catalysis. 
 
 Fig1. Reaction scheme comparing current state of the art to enzymatic catalysis
 
@@ -33,6 +31,8 @@ In conclusion, we report synthesis of oxirane from ethene using a biological cat
 
 References
 ==========
+
+[1] Dewer 
 
 + Song, Yifan, et al. "High-Resolution comparative modeling with RosettaCM." Structure 21.10 (2013): 1735-1742.
 
