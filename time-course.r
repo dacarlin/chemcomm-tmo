@@ -4,7 +4,7 @@ d=read.csv('time-course.csv')
 
 ggplot(d, group=sample) +
 
-# geom_point( aes(mins, eth) ) + 
+geom_point( aes(mins, eth) ) + 
 geom_smooth( aes(mins, eth, color="Ethene"), 
   method="glm",
   family=gaussian(link="log"),

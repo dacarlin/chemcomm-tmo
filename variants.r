@@ -7,8 +7,8 @@ d$Strain2 = reorder(d$Strain, -d$Eth)
 library(ggplot2)
 ggplot(d, aes(Strain2,eth.umol)) + 
 # tufte-style
-geom_boxplot(width=0, ) + coord_flip() + 
+geom_boxplot(width=0.618, ) + coord_flip() + 
 labs(title="TOM",x="", y="Ethene (umol) after 24 hours") + 
 scale_fill_brewer("Mutant sidechains", palette="Set1") + 
 theme_bw() + 
-ggsave('variants.png',width=7,height=4)
+ggsave('variants.png',width=4,height=4)
