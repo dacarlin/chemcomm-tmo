@@ -1,38 +1,58 @@
-Communication: enzymatic synthesis of oxirane
-=============================================
+# Protein engineering of toluene monooxygenase to enable synthesis of oxirane from ethene
 
-Commercial production of ethylene oxide, an important chemical feedstock, began in 1914 and by 2009 had reached 20 million tons annually. The current Currently, a multi-unit industrial process in which gaseous ethylene and oxygen are reacted over silver catalyst at high temperature and pressure is used to produce ethylene oxide (IUPAC name: oxirane) from ethylene (IUPAC name: ethene). [1] 
 
-Oxirane’s stance as a key raw material which satisfies demand for 10% of worldwide ethene production justifies better methods of production. Biological catalysts are becoming the tool of choice for synthetic reactions because of their selectivity, high theoretical yeild, and ability to perform under mild conditions. 
+Motivation 
+----------
 
-Fig1. Reaction scheme comparing current state of the art to enzymatic catalysis
+Ethylene oxide is an important raw material used in the manufacture of consumer products and industrial precursors as well as a commonly-used commercial disinfectant. Over 20 million tons are produced annually. The state of the art is an industrial process in which gaseous ethylene and oxygen are reacted over silver catalyst temperatures of 200–300 C and pressures of between 10 and 30 atm. [Dever] Ideally, there would be production methods that work at ambient temperatures and pressures with renewable catalysts. 
 
-In nature, the epoxidation of alkenes is carried out alkene monooxygenases. The expression of these enzymes in an industrial host such as Escherichia coli has to date been an elusive goal. 
+Enzymes are renowned for their ability to catalyze reactions at ambient temperatures and pressures. In nature, ethene can be oxidized to oxirane using by alkene monooxygenases. But attempts to use these enzymes in industrial hosts have not to date been successful.  
 
-Previous directed-evolution studies (Wood 2002) developed a library of 26,705 mutants of toluene ortho-monooxygenase (TOM) from *Burkholderia cepacia* for the bioremediation of chlorinated ethenes in wastewater. Wood found one mutant, TOM V106A, that degraded trichloroethene about twice as fast as the wild type enzyme. 
+While alkene monooxygenases have not been expressed recombinantly, a closely related enzyme, TOM, toluene ortho-monooxygenase (TOM) has. While it has not been shown to oxidize ethene, we hypothesized that this enzyme could potentially be used to carry out the reaction. Therefore, we tested the wild type enzyme and a library of mutants. 
 
-We assayed a subset of the directed-evolution library against ethene to determine if the enzyme was capable of oxidizing this compound to oxirane. Using whole cells sealed in glass vials under 1.5% ethene atmosphere with constant rocking, we found that some of the mutants were able to oxidize ethene to oxirane. 
 
-Fig2. Ethene remaining after 24 hours of contact with whole cells expressing mutants of TOM
+TOM
+---
 
-We found that wild type TOM showed no activity on ethene. We found no difference in degradation rate on ethene for TOM V106A, which Wood has shown to degrade trichloroethene about twice as fast as wild type. 
+Previous directed-evolution studies (Wood 2002) developed a library of 26,705 mutants of toluene ortho-monooxygenase (TOM) from *Burkholderia cepacia* for the bioremediation of chlorinated ethenes in wastewater. Wild type TOM is known to produce p-cresol from toluene via an epoxide intermediate. [Whited 1991]
 
-Similarly, TOM V106P+A113G, where V106 and A113 have been replaced by similar small amino acids, showed no increased activity on ethene. Mutants TOM V106R+A113W, TOM V106Q+A113Q, GTOM 103S+A107T, TOM A113H, and TOM V106H+A113S, in which the small, nonpolar residues at 106 and/or 133 have been replaced by polar residues, showed a range of modest activity on ethene.   
+Figure 1. Reaction scheme showing the natively-catalyzed reaction of toluene to p-cresol and the novel reaction of ethene to oxirane. 
 
-TOM mutants A113V, V106F, and A113F, where V106 and A113 are replaced by large nonpolar amino acids, showed dramatic gains in activity on ethene.
 
-The basis for specificity could be the steric occlusion of larger substrates (such as indole [Wood 2001]) from the active site and the favorable molecular interaction between the pi bonds of ethene and the sidechain of phenylalanine. 
+Mutants
+-------
 
-To investigate this hypothesis, we build homology models of the mutants using the crystal structures of three closely-related proteins (Song 2013). While this is not a replacement for determining the crystal structure, previous work has shown that Rosetta models are accurate enough to deduce why some of the evolved mutants showed activity on ethene while the wild type protein does not. 
+In our study, a subset of Wood's directed evolution library containing small-to-large amino acid substitutions near the active site of the hydroxylase subunit was chosen. Whole cells expressing the mutant enzymes were sealed in vials under ethene atmosphere and assayed for ethene and oxirane by GC-FID. 
 
-Our homology models revealed an active site pocket around the uncoordinated orbitals of the diiron center in the wild type large enough to admit indole. In the mutants A113F and V113F, the active site pocket is additionally packed and closed down compared to wild type such that it will not admit an indole but would easily admit a small nonpolar species such as ethene. We believe that this is the basis for the specific activity of the mutants on ethene. 
+Wild type TOM showed activity on ethene below our limit of detection (33 nM/min). Similarly, TOM V106P+A113G, where V106 and A113 have been replaced by similar small amino acids, showed no increased activity on ethene. Mutants TOM V106R+A113W, TOM V106Q+A113Q, GTOM 103S+A107T, TOM A113H, and TOM V106H+A113S, in which the small, nonpolar residues at 106 and/or 133 have been replaced by polar residues, showed a range of modest activity on ethene.   
+
+TOM mutants A113V, V106F, and A113F, where V106 and A113 are replaced by large nonpolar amino acids, showed rates of ethene degradation above 5 uM/min, about ten thousand times our limit of detection. 
+
+Figure 2. Ethene remaining after 24 hours of contact with whole cells expressing variants mutants of TOM. Cells suspended in phosphate-buffered saline were sealed in glass vials under 1.5% ethene atmosphere. After 24 hours, headspace was assayed for ethene and oxirane by GC-FID. 
+
+Figure 3. Further characterization of TOM A113F showing the complete conversion of 0.632 mM ethene to oxirane in under 4 hours.
+
+
+Modelling
+---------
+
+To investigate why mutants of TOM showed activity on ethene while the wild type did not, we built atomic-resolution molecular models of the mutants using Rosetta. A homology model of TOM was constructed using three closely related proteins with solved crystal structures: 3U52 (), 2INN (), and 2INP(). [Song 2013]. Coordination of four glutamate and two histidine residues was recapitulated using explicit atom pair constraints derived from the crystal structures. 
+
+Our models revealed an active site pocket around the open coordination sites of the diiron center in the wild type enzyme that was large enough to admit indole. In the mutants A113F and V113F, the active site pocket is partially filled by the sidechain of phenylalanine such that it will not admit an indole but will easily admit a small nonpolar species such as ethene. We believe that this is the basis for the specific activity of the mutants on ethene. 
+
+
+Wrap-up
+-------
 
 In conclusion, we report synthesis of oxirane from ethene using a biological catalyst derived from directed evolution on a related substrate. This finding opens the door to the industrial synthesis of oxirane using mild conditions. 
 
+
 References
-==========
+----------
 
 [1] Dewer 
+
++ Whited, Gregory M., and David T. Gibson. "Toluene-4-monooxygenase, a three-component enzyme system that catalyzes the oxidation of toluene to p-cresol in Pseudomonas mendocina KR1." Journal of bacteriology 173.9 (1991): 3010-3016.
 
 + Song, Yifan, et al. "High-Resolution comparative modeling with RosettaCM." Structure 21.10 (2013): 1735-1742.
 
