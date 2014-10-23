@@ -4,17 +4,17 @@
 Motivation 
 ----------
 
-Ethylene oxide is an important raw material used in the manufacture of consumer products and industrial precursors as well as a commonly-used commercial disinfectant. Over 20 million tons are produced annually. The state of the art is an industrial process in which gaseous ethylene and oxygen are reacted over silver catalyst temperatures of 200–300 C and pressures of between 10 and 30 atm. [Dever] Ideally, there would be production methods that work at ambient temperatures and pressures with renewable catalysts. 
+Ethylene oxide is an important raw material used in the manufacture of consumer products and industrial precursors, as well as a commonly-used commercial disinfectant. Over 20 million tons are produced annually. The state of the art is an industrial process in which gaseous ethylene and oxygen are reacted over silver catalyst temperatures of 200–300 C and pressures of between 10 and 30 atm. [Dever] Ideally, there would be production methods that work at ambient temperatures and pressures with renewable catalysts. 
 
-Enzymes are renowned for their ability to catalyze reactions at ambient temperatures and pressures. In nature, ethene can be oxidized to oxirane using by alkene monooxygenases. But attempts to use these enzymes in industrial hosts have not to date been successful.  
+Enzymes are renowned for their ability to catalyze reactions at ambient temperatures and pressures. In nature, ethene is oxidized to oxirane using by alkene monooxygenases. [Cite] But attempts to use these enzymes in industrial hosts have not to date been successful.  
 
-While alkene monooxygenases have not been expressed recombinantly, a closely related enzyme, TOM, toluene ortho-monooxygenase (TOM) has. While it has not been shown to oxidize ethene, we hypothesized that this enzyme could potentially be used to carry out the reaction. Therefore, we tested the wild type enzyme and a library of mutants. 
+While alkene monooxygenases have not been expressed recombinantly, a closely related enzyme has. This enzyme is toluene ortho-monooxygenase (TOM) from *Burkholderia cepacia*. While it has not been shown to oxidize ethene, we hypothesized that this enzyme could potentially be used to carry out the reaction. Therefore, we tested the wild type enzyme and a library of mutants for activity on ethene. 
 
 
 TOM
 ---
 
-Previous directed-evolution studies (Wood 2002) developed a library of 26,705 mutants of toluene ortho-monooxygenase (TOM) from *Burkholderia cepacia* for the bioremediation of chlorinated ethenes in wastewater. Wild type TOM is known to produce p-cresol from toluene via an epoxide intermediate. [Whited 1991]
+Previous directed-evolution studies (Wood 2002) developed a library of 26,705 mutants of TOM for the bioremediation of chlorinated ethenes in wastewater. Wild type TOM is known to produce p-cresol from toluene via an epoxide intermediate. [Whited 1991]
 
 Figure 1. Reaction scheme showing the natively-catalyzed reaction of toluene to p-cresol and the novel reaction of ethene to oxirane. 
 
@@ -22,11 +22,11 @@ Figure 1. Reaction scheme showing the natively-catalyzed reaction of toluene to 
 Mutants
 -------
 
-In our study, a subset of Wood's directed evolution library containing small-to-large amino acid substitutions near the active site of the hydroxylase subunit was chosen. Whole cells expressing the mutant enzymes were sealed in vials under ethene atmosphere and assayed for ethene and oxirane by GC-FID. 
+In our study, a subset of Wood's directed evolution library containing small-to-large amino acid substitutions near the active site of the hydroxylase subunit was chosen. Whole cells expressing the mutant enzymes were suspended in buffered solution, sealed in vials under ethene atmosphere, and assayed for ethene and oxirane by GC-FID. 
 
-Wild type TOM showed activity on ethene below our limit of detection (33 nM/min). Similarly, TOM V106P+A113G, where V106 and A113 have been replaced by similar small amino acids, showed no increased activity on ethene. Mutants TOM V106R+A113W, TOM V106Q+A113Q, GTOM 103S+A107T, TOM A113H, and TOM V106H+A113S, in which the small, nonpolar residues at 106 and/or 133 have been replaced by polar residues, showed a range of modest activity on ethene.   
+Wild type TOM showed no detectable activity on ethene (limit of detection: 10 nM/min). Similarly, TOM V106P+A113G, where V106 and A113 have been replaced by similar small amino acids, exhibited no detectable activity. Mutants TOM V106R+A113W, TOM V106Q+A113Q, GTOM 103S+A107T, TOM A113H, and TOM V106H+A113S, in which the small, nonpolar residues at 106 and/or 133 have been replaced by polar residues, showed a range of modest activity on ethene, degrading about 0.3 mM ethene over 24 hours.   
 
-TOM mutants A113V, V106F, and A113F, where V106 and A113 are replaced by large nonpolar amino acids, showed rates of ethene degradation above 5 uM/min, about ten thousand times our limit of detection. 
+TOM mutants A113V, V106F, and A113F, where V106 and A113 are replaced by large nonpolar amino acids, showed rates of ethene degradation above 5 uM/min under these conditions, a ten-thousand–fold increase over wild type. 
 
 Figure 2. Ethene remaining after 24 hours of contact with whole cells expressing variants mutants of TOM. Cells suspended in phosphate-buffered saline were sealed in glass vials under 1.5% ethene atmosphere. After 24 hours, headspace was assayed for ethene and oxirane by GC-FID. 
 
@@ -36,15 +36,9 @@ Figure 3. Further characterization of TOM A113F showing the complete conversion 
 Modelling
 ---------
 
-To investigate why mutants of TOM showed activity on ethene while the wild type did not, we built atomic-resolution molecular models of the mutants using Rosetta. A homology model of TOM was constructed using three closely related proteins with solved crystal structures: 3U52 (), 2INN (), and 2INP(). [Song 2013]. Coordination of four glutamate and two histidine residues was recapitulated using explicit atom pair constraints derived from the crystal structures. 
+To investigate why mutants of TOM showed activity on ethene while the wild type did not, we built atomic-resolution molecular models of the mutants using Rosetta. A homology model of TOM was constructed using three closely related proteins with solved crystal structures: 3U52 (66% sequence identity), 2INN (64% sequence identity), and 2INP (67% sequence identity). [Song 2013]. Coordination of four glutamate and two histidine residues in our models was recapitulated using explicit atom pair constraints derived from the crystal structures. 
 
-Our models revealed an active site pocket around the open coordination sites of the diiron center in the wild type enzyme that was large enough to admit indole. In the mutants A113F and V113F, the active site pocket is partially filled by the sidechain of phenylalanine such that it will not admit an indole but will easily admit a small nonpolar species such as ethene. We believe that this is the basis for the specific activity of the mutants on ethene. 
-
-
-Wrap-up
--------
-
-In conclusion, we report synthesis of oxirane from ethene using a biological catalyst derived from directed evolution on a related substrate. This finding opens the door to the industrial synthesis of oxirane using mild conditions. 
+Our models revealed a large active site pocket around the open coordination sites of the diiron center in the wild type enzyme. In the mutants A113F and V113F, the active site pocket is partially filled by the sidechain of phenylalanine such that it will not admit an indole but will easily admit a small nonpolar species such as ethene. This is consistent with our experimental results and we believe that this is the basis for the specific activity of the mutants on ethene. 
 
 
 References
