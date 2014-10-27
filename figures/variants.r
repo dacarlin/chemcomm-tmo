@@ -5,10 +5,9 @@ d$eth.umol =  d$Eth / max(d$Eth)
 d$Strain2 = reorder(d$Strain, -d$Eth)
 
 library(ggplot2)
-ggplot(d, aes(Strain2,eth.umol)) + 
+ggplot(d, aes(Strain,Percent)) + 
 # tufte-style
 geom_boxplot(width=0.618, ) + coord_flip() + 
-labs(title="TOM",x="", y="Ethene (umol) after 24 hours") + 
-scale_fill_brewer("Mutant sidechains", palette="Set1") + 
+labs(title="",x="", y="Percent ethene after 24 hours") + 
 theme_bw() + 
-ggsave('variants.png',width=4,height=4)
+ggsave('variants.png',width=5,height=5)
