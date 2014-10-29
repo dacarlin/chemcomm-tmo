@@ -1,0 +1,74 @@
+<ROSETTASCRIPTS>
+
+<SCOREFXNS>
+
+  <talaris2013_enzdes weights=talaris2013_enzdes.wts/>
+
+</SCOREFXNS>
+     
+<TASKOPERATIONS>
+
+  <DetectProteinLigandInterface name=repack_sphere design=0 cut1=8.0 cut2=10.0 cut3=12.0 cut4=14.0 catres_interface=1/>
+
+</TASKOPERATIONS>
+
+<FILTERS>
+  
+  <EnzScore 
+    name=allcst 
+    score_type=cstE 
+    scorefxn=talaris2013_enzdes
+    whole_pose=1 
+    energy_cutoff=10
+  />
+
+</FILTERS>
+
+<MOVERS>
+
+  #AddOrRemoveMatchCsts name="&string" cst_instruction=( "void", "&string") cstfile="&string" keep_covalent=(0 &bool) accept_blocks_missing_header=(0 &bool) fail_on_constraints_missing=(1 &bool)/>
+  
+  <AddOrRemoveMatchCsts name=enzdes-cst
+    cst_instruction=add_new
+    cstfile=enzdes.cst
+  />
+
+  <ConstraintSetMover name=addcst 
+    add_constraints=true 
+    cst_file=fe.cst 
+  />
+  
+  <EnzRepackMinimize name=repack
+    design=0 
+    repack_only=1 
+    scorefxn_minimize=talaris2013_enzdes
+    scorefxn_repack=talaris2013_enzdes 
+    minimize_rb=1 
+    minimize_sc=1 
+    minimize_bb=1 
+    cycles=8 
+    minimize_lig=0
+    min_in_stages=0 
+    backrub=0 
+    task_operations=repack_sphere
+  />
+
+  <GenericMonteCarlo name=monte 
+    mover_name=repack 
+    filter_name=allcst
+    trials=3 
+    sample_type=low 
+    temperature=0.6 
+    drift=1
+  />
+
+</MOVERS>
+
+<APPLY_TO_POSE></APPLY_TO_POSE>
+
+<PROTOCOLS>
+     <Add mover_name=addcst />
+     <Add mover_name=monte />
+</PROTOCOLS>
+
+</ROSETTASCRIPTS>

@@ -1,0 +1,15 @@
+# AtomPair Atom1_Name Atom1_ResNum Atom2_Name Atom2_ResNum Func_Type Func_Def
+AtomPair  FE    512A  FE  513A  HARMONIC 3.1 0.3
+AtomPair  OE1   201A  FE  512A  HARMONIC 2.1 0.2
+AtomPair  OE2   201A  FE  512A  HARMONIC 2.3 0.2 
+AtomPair  OE1   235A  FE  512A  HARMONIC 2.1 0.2 
+AtomPair  OE2   235A  FE  513A  HARMONIC 3.9 0.3 
+AtomPair  ND1   143A  FE  513A  HARMONIC 2.1 0.2
+AtomPair  OE1   110A  FE  513A  HARMONIC 2.1 0.2
+AtomPair  OE1   110A  FE  512A  HARMONIC 5.7 0.5
+AtomPair  OE2   110A  FE  513A  HARMONIC 2.8 0.2
+AtomPair  OE1   140A  FE  513A  HARMONIC 2.1 0.2
+AtomPair  OE2   140A  FE  512A  HARMONIC 2.6 0.2
+AtomPair  ND1   238A  FE  512A  HARMONIC 2.2 0.2
+AtomPair  CE1   200A  FE  513A  HARMONIC 6.7 1.0 # homology model loses this phe rotamer 
+

@@ -1,0 +1,13 @@
+
+LINK        FE    FE A 501                 OE1 GLU A 104     1555   1555  2.08
+LINK        FE    FE A 501                 O   HOH A 505     1555   1555  2.41
+LINK        FE    FE A 501                 ND1 HIS A 137     1555   1555  2.25
+LINK        FE    FE A 501                 O   HOH A 504     1555   1555  2.11
+LINK        FE    FE A 501                 O   HOH A 506     1555   1555  2.26
+LINK        FE    FE A 501                 OE1 GLU A 134     1555   1555  2.16
+LINK        FE    FE A 502                 OE2 GLU A 231     1555   1555  2.21
+LINK        FE    FE A 502                 O   HOH A 504     1555   1555  1.83
+LINK        FE    FE A 502                 OE2 GLU A 197     1555   1555  1.80
+LINK        FE    FE A 502                 OE2 GLU A 134     1555   1555  2.11
+LINK        FE    FE A 502                 NE2 HIS A 234     1555   1555  2.15
+LINK        FE    FE A 502                 O   HOH A 505     1555   1555  2.31
