@@ -21,5 +21,6 @@ library(ggplot2)
 ggplot(d, aes(Strain2,Percent)) + 
 geom_boxplot(width=0.618) + coord_flip() + 
 labs(title="",x="", y="Percent ethylene after 24 hours") + 
+scale_y_continuous(breaks=c(0,25,50,75,100)) + 
 theme_bw() + 
 ggsave('variants.png',width=5,height=5)
