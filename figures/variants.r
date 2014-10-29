@@ -2,19 +2,19 @@
 d=read.csv('variants.csv')
 d$Percent = d$Eth / 16 
 d$Strain2 = factor(d$Strain, levels=c(
-  "Buffer",
-  "Wild type TOM",
-  "V106A",
-  "V106P+A113G",
-  "V106R+A113W",
-  "V106I+A113S",
-  "V106Q+A113Q",
-  "A113H",
-  "V106H+A113S",
-  "A113V",
-  "V106E",
+  "A113F",
   "V106F",
-  "A113F"
+  "V106E",
+  "A113V",
+  "V106H+A113S",
+  "A113H",
+  "V106Q+A113Q",
+  "V106I+A113S",
+  "V106R+A113W",
+  "V106P+A113G",
+  "V106A",
+  "Wild type TOM"#,
+  #"Buffer"
 ))
 
 library(ggplot2)
