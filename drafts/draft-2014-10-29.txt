@@ -1,0 +1,159 @@
+Cite this: DOI: 10.1039/x0xx00000x
+Received 00th January 2012,
+Accepted 00th January 2012
+DOI: 10.1039/x0xx00000x
+www.rsc.org/
+Biocatalytic Conversion of Ethylene to Ethylene Oxide using an Engineered Toluene o-xylene Monooxygenase
+D.A. Carlin,a S.J. Bertolani, b and J.B. Siegelb,c,d
+
+
+
+
+Mutants of toluene o-xylene monooxygenase are demonstrated to oxidize ethylene to ethylene oxide in vivo at yields of >99%. While the native enzyme is not observed to carry out the reaction, several mutants increase activity by >4600-fold and are able to specifically drive the reaction to completion in less than 4 hours. This is the first report of a recombinant enzyme capable of carrying out this industrially significant chemical conversion. 
+Ethylene oxide is an industrially important feedstock chemical with more than 20 million tons produced annually. Currently ethylene oxide is produced through the oxidation of ethylene by a silver catalyst in high-pressure, high-temperature reactors, with a yield of up to 75% [Dever]. In order to develop a renewable alternative to this important transformation, it will be critical to develop methods that increase yields, are carried out under ambient temperatures and pressures, and do not generate toxic waste.
+
+Enzymes are biology’s catalysts and are renowned for their ability to reduce the activation energy of chemical reactions, allowing mild reaction conditions. In nature, a class of enzymes called alkene monooxygenases (AOs) are known to oxidize alkenes, including ethylene [Small]. The organisms where AOs are naturally found further utilize the oxidized alkenes, such as ethylene oxide, for growth and are also not readily amenable to industrial processes. Therefore, for the development of an industrial biocatalyst to convert ethylene into ethylene oxide the recombinant production of AOs in an industrial organism, such as E. coli, would be ideal. However, expression of recombinant AOs in E. coli has proven elusive [Chan]. 
+Toluene o-xylene monooxygenase (TOM) is an enzyme closely related to AOs, and has been shown to oxidize aromatic compounds such as toluene via an epoxide intermediate [Whited]. Furthermore, TOM is established to be recombinantly produced in E. coli. In addition, TOM has been previously engineered to oxidize the related compound trichloroethylene. Therefore, we hypothesized that either TOM, or variants of TOM, would be capable of oxidizing ethylene to ethylene oxide (Figure 1). 
+
+We obtained TOM and a panel of TOM mutants from a previous effort by Wood and colleagues [Iwashita; Rui]. These mutants were derived from a series of libraries to reengineer TOM to oxidize trichloroethylene. Specifically, we focused on mutants found in these previous studies where small amino acids had been changed to large amino acids. The one exception was V106A, which was previously identified as the best mutant for oxidation of trichloroethylene.
+
+The panel of 12 mutants were each grown in E. coli TG1 as overnight cultures, and then resuspended in pH 7.4 phosphate buffered saline at an OD of 10. In gas-tight 1.5 mL vials 0.5 mL of cells were added, and the headspace was purged with 1.5% ethylene in air, resulting in 0.7 mM ethylene in the headspace. The cells were incubated at 37 ˚C while mixing for 24 hours, after which the headspace was analyzed using GC-FID to detect the fraction of ethylene remaining and if ethylene oxide was produced. As illustrated in Figure 2, while the native TOM did not utilize ethylene there were several mutants that had utilized >99% of the ethylene present. Furthermore, the major product detected in these biotranformations was ethylene oxide.
+
+The most active mutants in the screen, A113F and V106F, were further characterized for ethylene oxide production. The equivalent procedure as described was carried out, however headspace was measured from a series of samples produced in parallel at 30, 100, and 220 minutes. As illustrated in Figure 3, mutant A113F quantitatively converted >99% of ethylene into ethylene oxide in less than 4 hours, while mutant V106F converted >10%. We calculated a steady-state rate 16,000 nM/min for mutant A113F and a rate of 500 nM/min for V106F. Using the native TOM no ethylene oxide was produced or ethylene oxidized over a 24-hour period. Based on analytical standards as little as 5 μM ethylene oxide in a whole cell biotransformation over a period of 24 hours could have been detected, which would correspond to a conversion rate of 3.5 nM/min. Therefore, the single mutant A113F enhanced activity by >4600-fold while the single mutant V106F enhanced activity >140-fold. 
+
+To better understand why these mutations had a significant effect on activity we generated molecular models of each. While a crystal structure of TOM is not available, we generated a molecular model of the native enzyme as well as each mutant using standard Rosetta-CM protocols [Song]. Three templates (PDB entries 3U52, 2INN, and 2INP) were used, all of which were ~65% identical in sequence to TOM and the mutants. Next, we used RosettaLigand [Meiler] with functional constraints derived from the geometry of the template crystal structures to dock the iron atoms into the models. 
+
+The models revealed a pocket around the open coordination sites of the diiron center in TOM (Figure 4). In the mutant A113F, and, to a lesser extent, V106F, the pocket is partially occluded by the side chain of phenylalanine. This indicates a relatively simple explanation for the increase in activity whereby the aromatic ring in the active site promotes a catalytically productive binding mode for ethylene.
+Conclusions
+To the best of our knowledge this is the first report of an engineered biocatalyst capable of converting ethylene to ethylene oxide. This engineered protein was obtained from a repurposed directed evolution library originally targeted at the oxidation of the related compound trichloroethylene. Interestingly, the best mutant on trichloroethylene was not the best mutant on ethylene, despite close structural homology between these two compounds. Given the vastly different electronic structure of ethylene and trichloroethylene, however, this suggests that there may be a fundamentally different mechanism by which the two are oxidized. This finding highlights the importance of rescreening libraries of mutants against new target substrates.
+
+The system with the highest activity in this study was able to quantitatively convert >99% of ethylene to ethylene oxide in less than 4 hours at a relatively low temperature and pressure, in mild aqueous conditions, with no production of toxic byproducts. As the most active mutant was not explicitly developed for ethylene oxide production, further efforts to engineer the mutant TOM discovered here can likely improve activity. This novel renewable catalyst has the potential to transform the production of the industrially important chemical ethylene oxide. 
+
+Notes and references
+a Biophysics Graduate Group, University of California Davis, Davis, California, USA.
+b Department of Chemistry, University of California Davis, Davis, California, USA.
+c Department of Biochemistry and Molecular Medicine, University of California Davis, Davis, California, USA.
+d Genome Center, University of California Davis, Davis, California, USA.
+
+† We are grateful to Thomas Wood, Sabina Islam, Brian Wai Kwan, and Michael McAnulty for the TOM and TOM mutants derived from their previous libraries. We would also like to thank Shota Atsumi and Michael Toney for insightful discussions. Finally, we would like to acknowledge ARPA-E DE-AR0000429 for support of this project.
+
+Electronic Supplementary Information (ESI) available: [details of any supplementary information available should be included here]. See DOI: 10.1039/c000000x/
+
+1	Dever, J. P., K. F. George, W. C. Hoffman, and H. Soo. "Ethylene oxide." Kirk-Othmer encyclopedia of chemical technology, 2006
+
+2	Small, Frederick J., and Scott A. Ensign. "Alkene monooxygenase from Xanthobacter strain Py2 purification and characterization of a four-component system central to the bacterial metabolism of aliphatic alkenes." Journal of Biological Chemistry, 1997, 272.40, 24913-24920
+
+3	Chion, Chan K. Chan Kwo, Sarah E. Askew, and David J. Leak. "Cloning, expression, and site-directed mutagenesis of the propene monooxygenase genes from Mycobacterium sp. strain M156." Applied and environmental microbiology 71.4 (2005): 1909-1914.
+
+4	Gregory M., and David T. Gibson. "Toluene-4-monooxygenase, a three-component enzyme system that catalyzes the oxidation of toluene to p-cresol in Pseudomonas mendocina KR1." Journal of bacteriology 1991, 173.9, 3010-3016
+
+5	Iwashita, Sachiyo, Hojae Shim, and Thomas K. Wood. "Directed evolution of toluene ortho-monooxygenase for enhanced 1-naphthol synthesis and chlorinated ethylene degradation." Journal of bacteriology 2002, 184.2, 344-349
+
+6	Rui, Lingyun, Kenneth F. Reardon, and Thomas K. Wood. "Protein engineering of toluene ortho-monooxygenase of Burkholderia cepacia G4 for regiospecific hydroxylation of indole to form various indigoid compounds." Applied microbiology and biotechnology 2005, 66.4, 422-429
+
+7	Song Yifan, et al. "High-Resolution comparative modeling with RosettaCM." Structure 2013, 21.10, 1735-1742
+
+8	Meiler, J. and Baker, D. "ROSETTALIGAND: Protein-Small Molecule Docking with Full Side-Chain Flexibility" Proteins 2006, 65, 538-548
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
